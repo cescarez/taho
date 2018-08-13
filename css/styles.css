@@ -1,7 +1,18 @@
 h1 {
-
+  font-family: sans-serif;
 }
 
-.quote {
+p.quote {
+  box-sizing: inherit;
+  font-style: italic;
+}
 
+.important {
+  font-weight: bolder;
+}
+
+.soft {
+  font-variant: small-caps;
+  font-kerning: none;
+  color: grey
 }
