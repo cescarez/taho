@@ -1,3 +1,32 @@
+
+.critical {
+  font-stretch: expanded;
+  font-weight: bolder;
+  background: yellow
+}
+
+.important {
+  font-weight: bold;
+}
+
+.soft {
+  font-variant: small-caps;
+  font-kerning: none;
+  color: grey
+}
+
+.sidebar{
+  width: auto;
+  float: right;
+  border: 2px solid red;
+  padding: 2px;
+}
+
+.column {
+  width: 33%;
+  float: left;
+}
+
 h1 {
   font-family: sans-serif;
 }
@@ -7,12 +36,7 @@ p.quote {
   font-style: italic;
 }
 
-.important {
-  font-weight: bolder;
-}
-
-.soft {
-  font-variant: small-caps;
-  font-kerning: none;
-  color: grey
+img.left {
+  float: left;
+  margin-right: 20px;
 }
