@@ -9,12 +9,6 @@
   font-weight: bold;
 }
 
-.soft {
-  font-variant: small-caps;
-  font-kerning: none;
-  color: grey
-}
-
 .sidebar{
   width: auto;
   float: right;
@@ -26,14 +20,15 @@ h1 {
   font-family: sans-serif;
 }
 
-p.quote {
-  box-sizing: inherit;
-  font-style: italic;
-}
-
 img.left {
   float: left;
   margin-right: 20px;
+}
+
+h4 ~ p {
+  font-variant: small-caps;
+  font-kerning: none;
+  color: grey
 }
 
 @media screen and (min-width: 768px) {
