@@ -14,27 +14,17 @@
   float: right;
   border: 2px solid red;
   padding: 2px;
+  margin: 20px
 }
 
-h1 {
-  font-family: sans-serif;
-}
 
-img.right {
-  float: right;
+img {
+  float: left;
   margin-right: 20px;
 }
 
-h4 ~ p {
+div.bg-info > p {
   font-variant: small-caps;
   font-kerning: none;
   color: grey
-}
-
-@media screen and (min-width: 768px) {
-  .column {
-    width: 300px;
-    float: left;
-    padding: 20px;
-  }
 }
