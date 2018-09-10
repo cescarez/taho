@@ -19,7 +19,7 @@
 
 
 img {
-  float: left;
+  float: center;
   margin-right: 20px;
 }
 
@@ -27,4 +27,13 @@ div.bg-info > p {
   font-variant: small-caps;
   font-kerning: none;
   color: grey
+}
+
+#taho-facts {
+  display:none;
+}
+
+
+.gray-background {
+  background-color:#3a3a3a;
 }

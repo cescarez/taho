@@ -3,74 +3,59 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Taho the Dog</title>
   </head>
   <body>
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts/js"></script>
-    <img src="img/blep.JPG" alt="dog with tongue sticking out of closed mouth" width="20%" height="20%" class="img-circle">
-    <div class="jumbotron">
-      <h1>Taho the Rescue Mutt</h1>
-      <h3>&& #1 garbage dog!</h3>
-    </div>jquery-3.3.1
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="emergency.html">In case of Emergency</a>
-          </li>
-        </ul>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+    <div>
+      <div class="jumbotron">
+        <h1>Taho the Rescue Mutt</h1>
+        <h3>&& #1 garbage dog!</h3>
       </div>
-    </nav>
 
-    <blockquote>
-      <p>"Your dog just ate six cliff bars. That's almost impressive!" -Anonymous report</p>
-    </blockquote>
+      <div class="container">
+        <p id="dark-mode">Click here to turn on Dark Mode</p>
+        <p id="light-mode">Click here to turn OFF Dark Mode</p>
+      </div>
 
+      <div>
+        <blockquote>
+          <p>"Your dog just ate six cliff bars. That's almost impressive!" -Anonymous report</p>
+        </blockquote>
+      </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Instructions for dogsitters:</h3>
-      </div>
-      <div class="panel-body">
-        <p class="important"><italic>Do not trust Taho's adorable kissable face and understanding gaze.</italic> She <strong>will</strong> eat any food you leave unattended for >5 minutes. Please place all foods behind the baby gate in the kitchen.</p>
-      </div>
-      <div class="panel-heading">
-        <p class="panel-title">Things to know:</p>
-      </div>
-      <div class="panel-body">
-        <ul>
-          <li>She can be shy/aloof with new people. After a few walks and a few meals, she warms up.</li>
-          <li>Because of the aformentioned shyness, she may be stubborn about going places on walks or getting in the car.</li>
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title" id="dogsitter">View Information for Dogsitters</h3>
+        </div>
+        <div class="panel-body" id="taho-facts">
+          <p class="panel-title">Things to know:</p>
           <ul>
-            <li>Feel free to use <span class="important">lots</span> of treats to bribe her into listening to you. Also pieces of food work great as treats right now because she loves her food -- just please reduce her next meal portion accordingly if you feed her a bunch of treats between mealtimes.</li>
+            <li class="important"><italic>Do not trust Taho's adorable kissable face and understanding gaze.</italic> She <strong>will</strong> eat any food you leave unattended for >5 minutes. Please place all foods behind the baby gate in the kitchen.</li>
+            <li>She can be shy/aloof with new people. After a few walks and a few meals, she warms up.</li>
+            <li>Because of the aformentioned shyness, she may be stubborn about going places on walks or getting in the car.</li>
+            <ul>
+              <li>Feel free to use <span class="important">lots</span> of treats to bribe her into listening to you. Also pieces of food work great as treats right now because she loves her food -- just please reduce her next meal portion accordingly if you feed her a bunch of treats between mealtimes.</li>
+            </ul>
+            <li>She does <em>not</em> like the dog park.</li>
+            <ul>
+              <li>Once I lost her because she ran away from me to sit by the car.</li>
+            </ul>
+            <li>She is afraid of medium to large high-energy dogs.</li>
+            <li>Her recall (return rate when called) is pretty low. We're working on it, but she's definitely got stray-mentality when given complete freedom.</li>
           </ul>
-          <li>She does <em>not</em> like the dog park.</li>
-          <ul>
-            <li>Once I lost her because she ran away from me to sit by the car.</li>
-          </ul>
-          <li>She is afraid of medium to large high-energy dogs.</li>
-          <li>Her recall (return rate when called) is pretty low. We're working on it, but she's definitely got stray-mentality when given complete freedom.</li>
-        </ul>
+        </div>
       </div>
-      <p align="center"><a href="http://threerivershumanesociety.org">Donate to Three Rivers Humane Society</p>
-    </div>
-    <div class="bg-info">
-      <h4>About Taho's people</h4>
-      <p><a href="mailto:christabel.escarez@gmail.com">Christabel</a> was born and raised in Seattle.</p>
-      <p>Dr. Adrianne<p>
-    </div>
+      <div class="container" align="center">
+        <button class="btn btn-success" href="http://threerivershumanesociety.org">Donate to Three Rivers Humane Society</button>
+        <img src="img/blep.JPG" alt="dog with tongue sticking out of closed mouth" width="20%" height="auto" class="img-rounded">
+      </div>
+      <div class="bg-info">
+        <h4>About Taho's people</h4>
+        <p><a href="mailto:christabel.escarez@gmail.com">Christabel</a> was born and raised in Seattle.</p>
+        <p>Dr. Adrianne<p>
+      </div>
+  </div>
   </body>
 </html>

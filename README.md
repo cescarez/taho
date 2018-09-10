@@ -27,8 +27,11 @@ _Contact christabel.escarez@gmail.com with any technical issues or dog-related f
 
 ## Technologies Used
 
-_HTML_
-_CSS_
+* _HTML_
+* _CSS_
+  * _Bootstrap
+* _Javascript_
+  * _
 
 ### License
 
