@@ -33,7 +33,11 @@ div.bg-info > p {
   display:none;
 }
 
+#light-mode {
+  display:none;
+}
 
 .gray-background {
   background-color:#3a3a3a;
+  color: white;
 }
