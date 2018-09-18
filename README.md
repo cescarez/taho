@@ -19,7 +19,7 @@ _As they say, "Everyone says their dog is the best dog. And none of them are wro
 
 ## Known Bugs
 
-_No known programming issues, occasional fleas._
+_Occasional fleas. As this project is constantly in development, there are usually some sort of bug. Right now, javascript functions are not entirely operational._
 
 ## Support and contact details
 
